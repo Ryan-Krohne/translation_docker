@@ -6,4 +6,4 @@ ENV PORT=${PORT:-5000}
 
 EXPOSE $PORT
 
-CMD ["./run.sh", "--port", "$PORT"]
+CMD ./run.sh --port $PORT
