@@ -2,8 +2,5 @@
 
 FROM libretranslate/libretranslate:latest
 
-ENV PORT=${PORT:-5000}
-
-EXPOSE $PORT
-
-CMD ["sh", "-c", "./run.sh --port $PORT"]
+ENV PORT=5000
+EXPOSE 5000
