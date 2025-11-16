@@ -1,3 +1,2 @@
 libretranslate
 argostranslate
-python-3.10
